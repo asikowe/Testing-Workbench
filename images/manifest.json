@@ -1,0 +1,66 @@
+{
+  "id" : "https://asikowe.github.io/Testing-Workbench/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in asikowe/Testing-Workbench project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 4000,
+    "id" : "https://asikowe.github.io/Testing-Workbench/images/maqamatfol36a/canvas/",
+    "label" : {
+      "none" : [ "maqamatfol36a" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://asikowe.github.io/Testing-Workbench/images/maqamatfol36a/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://asikowe.github.io/Testing-Workbench/images/maqamatfol36a/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 101
+            }, {
+              "width" : 250,
+              "height" : 202
+            }, {
+              "width" : 500,
+              "height" : 403
+            }, {
+              "width" : 1000,
+              "height" : 805
+            }, {
+              "width" : 2000,
+              "height" : 1609
+            }, {
+              "width" : 4000,
+              "height" : 3217
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4000,
+            "@id" : "https://asikowe.github.io/Testing-Workbench/images/maqamatfol36a",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3217
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4000,
+          "id" : "https://asikowe.github.io/Testing-Workbench/images/maqamatfol36a/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3217
+        },
+        "target" : "https://asikowe.github.io/Testing-Workbench/images/maqamatfol36a/canvas/"
+      } ]
+    } ],
+    "height" : 3217
+  } ]
+}
