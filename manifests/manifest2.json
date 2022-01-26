@@ -3,7 +3,6 @@
   "@id" : "https://asikowe.github.io/Testing-Workbench/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Colors of coffee",
-  "viewingHint" : "paged",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "Colors of coffee from around the world.",
