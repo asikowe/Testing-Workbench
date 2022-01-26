@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://asikowe.github.io/Testing-Workbench/manifests/manifest2.json",
-    "label" : "Colors of coffee"
-  } ]
+  "items" : [ ]
 }
