@@ -1,0 +1,188 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://asikowe.github.io/Testing-Workbench/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Colors of coffee",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Colors of coffee from around the world.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Joanna Bek",
+  "sequences" : [ {
+    "@id" : "http://d3df0674-4483-48cc-88fb-b59b62ba8854",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://71217682-b467-4e17-8c95-430f0004e1ec",
+      "@type" : "sc:Canvas",
+      "label" : "Coffee & Chill Station",
+      "height" : 522,
+      "width" : 640,
+      "metadata" : [ {
+        "label" : "City",
+        "value" : "<a href='https://www.google.com/maps/place/Coffee+%26+Chill+Station/@21.0322771,105.8529962,19z/data=!3m1!4b1!4m5!3m4!1s0x3135abc06952a9e5:0xb8c7fdbc073847d8!8m2!3d21.0322862!4d105.8535444'>Hanoi</a>"
+      }, {
+        "label" : "Taken",
+        "value" : "2019-01-11"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://dbd31db8-7c4e-45e6-8f86-c5d2a49889bb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/80-hanoi/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/80-hanoi",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 522,
+          "width" : 640
+        },
+        "on" : "http://71217682-b467-4e17-8c95-430f0004e1ec"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://675d300a-c46b-473b-82d7-9fb8fdf27953",
+      "@type" : "sc:Canvas",
+      "label" : "The Little Red Fox Espresso",
+      "height" : 495,
+      "width" : 640,
+      "metadata" : [ {
+        "label" : "City",
+        "value" : "<a href='https://www.google.com/maps/place/The+Little+Red+Fox+Espresso+Cafe/@13.3573755,103.8543883,17z/data=!3m1!4b1!4m5!3m4!1s0x3110177028c23b63:0x621fc86797792903!8m2!3d13.3573703!4d103.856577'>Siem Reap</a>"
+      }, {
+        "label" : "Taken",
+        "value" : "2019-03-02"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://77cf7313-e13f-41a0-85db-16e551b51c10",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/84-siem-reap/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/84-siem-reap",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 495,
+          "width" : 640
+        },
+        "on" : "http://675d300a-c46b-473b-82d7-9fb8fdf27953"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c707ee9b-ff02-4b16-9f76-7c099f53351f",
+      "@type" : "sc:Canvas",
+      "label" : "Kraffmen",
+      "height" : 536,
+      "width" : 640,
+      "metadata" : [ {
+        "label" : "City",
+        "value" : "<a href='https://www.google.com/maps/place/Kraffmen/@5.4165085,100.3229766,17z/data=!3m1!4b1!4m5!3m4!1s0x304ac3bdc888d601:0xe017d38abd2b9ef7!8m2!3d5.4165277!4d100.3251384'>George Town</a>"
+      }, {
+        "label" : "Taken",
+        "value" : "2019-04-13"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b26f5e38-cc8c-4db2-9282-c695d1ddbc58",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/89-george-town/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/89-george-town",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 536,
+          "width" : 640
+        },
+        "on" : "http://c707ee9b-ff02-4b16-9f76-7c099f53351f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://67144c05-f0f8-4e91-8fda-b4ba55fc863e",
+      "@type" : "sc:Canvas",
+      "label" : "Knitted Coffee",
+      "height" : 3525,
+      "width" : 3000,
+      "metadata" : [ {
+        "label" : "City",
+        "value" : "<a href='https://www.google.com/maps/place/Knitted+Coffee+Starowi%C5%9Blna+38/@50.0551625,19.9382602,15z/data=!4m9!1m2!2m1!1sKnitted+Coffee!3m5!1s0x47165b1537350b83:0xf4c4d95c7c77934b!8m2!3d50.0551551!4d19.9469979!15sCg5Lbml0dGVkIENvZmZlZVoQIg5rbml0dGVkIGNvZmZlZZIBBGNhZmU'>Kraków</a>"
+      }, {
+        "label" : "Taken",
+        "value" : "2019-10-17"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0d3f4e49-e01b-4e1f-bade-b80fe4ad19ed",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/90-krakow/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/90-krakow",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3525,
+          "width" : 3000
+        },
+        "on" : "http://67144c05-f0f8-4e91-8fda-b4ba55fc863e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://22d4eaea-c720-40ca-b9b3-3261af5f9646",
+      "@type" : "sc:Canvas",
+      "label" : "Tree Artisan Café",
+      "height" : 3000,
+      "width" : 4000,
+      "metadata" : [ {
+        "label" : "City",
+        "value" : "<a href='https://www.google.com/maps/place/Tree+Artisan+Caf%C3%A9/@51.7587485,-1.2636057,17z/data=!3m1!4b1!4m5!3m4!1s0x4876c71f1abd0f09:0xab055582d19be518!8m2!3d51.7587452!4d-1.261417'>Oxford</a>"
+      }, {
+        "label" : "Taken",
+        "value" : "2022-01-22"
+      } ],
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a0961927-0a1f-4237-a7e4-baf8361d0ece",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/100-oxford/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/100-oxford",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3000,
+          "width" : 4000
+        },
+        "on" : "http://22d4eaea-c720-40ca-b9b3-3261af5f9646"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
