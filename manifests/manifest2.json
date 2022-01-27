@@ -3,12 +3,17 @@
   "@id" : "https://asikowe.github.io/Testing-Workbench/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Colors of coffee",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/66479882/d537e1539f32f73a3852162423e9e19c/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "Colors of coffee from around the world.",
     "@language" : "en"
   } ],
-  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "attribution" : "Joanna Bek",
   "sequences" : [ {
     "@id" : "http://d3df0674-4483-48cc-88fb-b59b62ba8854",
@@ -48,6 +53,11 @@
           "width" : 640
         },
         "on" : "http://71217682-b467-4e17-8c95-430f0004e1ec"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://asikowe.github.io/Testing-Workbench/annotations/65bbd7afed8756d6d5543efad559cbd7.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
