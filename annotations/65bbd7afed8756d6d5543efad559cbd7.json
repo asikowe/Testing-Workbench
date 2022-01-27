@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Black Americano.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Black Americano.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/66479882",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-01-27T11:38:10",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1643283490879",
+    "dcterms:modified" : "2022-01-27T11:38:10",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://asikowe.github.io/Testing-Workbench/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=178,116,265,279"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M216.66263,157.11863c24.44034,-23.43422 58.91739,-40.8849 93.56152,-40.86405v0v0c34.64413,0.02085 64.82498,16.34567 93.56152,40.86405c28.73654,24.51838 39.90607,61.87965 38.75445,98.65454c-1.15162,36.77489 -14.6244,72.9634 -38.75445,98.65454c-24.13005,25.69114 -58.91739,40.8849 -93.56152,40.86405c-34.64413,-0.02085 -69.14505,-15.25631 -93.56152,-40.86405c-24.41647,-25.60774 -38.74848,-61.58776 -38.75445,-98.65454c-0.00597,-37.06678 14.31411,-75.22031 38.75445,-98.65454z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_be3373cd-b743-432b-a870-c77982f6cdd7\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://71217682-b467-4e17-8c95-430f0004e1ec"
+    } ]
+  } ],
+  "@id" : "https://asikowe.github.io/Testing-Workbench/annotations/65bbd7afed8756d6d5543efad559cbd7.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
