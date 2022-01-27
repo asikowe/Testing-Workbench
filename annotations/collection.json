@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://asikowe.github.io/Testing-Workbench/annotations/65bbd7afed8756d6d5543efad559cbd7.json" ],
+  "@id" : "https://asikowe.github.io/Testing-Workbench/annotations/collection.json",
+  "label" : "All annotations loaded in asikowe/Testing-Workbench project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
