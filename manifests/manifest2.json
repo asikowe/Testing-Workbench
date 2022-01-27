@@ -8,7 +8,7 @@
     "@value" : "Colors of coffee from around the world.",
     "@language" : "en"
   } ],
-  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
   "attribution" : "Joanna Bek",
   "sequences" : [ {
     "@id" : "http://d3df0674-4483-48cc-88fb-b59b62ba8854",
