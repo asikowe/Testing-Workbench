@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://asikowe.github.io/Testing-Workbench/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://7569b68a-c5ea-4d21-a3a3-80fce9940051",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://f86e5491-e3df-46a2-8554-779fb4931659",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 7008,
+      "width" : 9920,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b43b0298-51d3-44e9-8139-516b9ad4d124",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/oulis2008-bcb-0004-0/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/oulis2008-bcb-0004-0",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 7008,
+          "width" : 9920
+        },
+        "on" : "http://f86e5491-e3df-46a2-8554-779fb4931659"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
