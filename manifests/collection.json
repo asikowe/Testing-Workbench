@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://asikowe.github.io/Testing-Workbench/manifests/manifest2.json",
     "label" : "Colors of coffee"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://asikowe.github.io/Testing-Workbench/manifests/manifest.json",
+    "label" : "[Click to edit label]"
   } ]
 }
